@@ -1,6 +1,3 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import '../css/Projects.css';
 import portfolioImage from '../images/portfolio.png'
 import darkpaperImage from '../images/darkpaper.png'

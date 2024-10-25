@@ -1,6 +1,4 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/Header.css'; // Custom CSS file for styling
+import '../css/Header.css';
 
 const Header = () => {
   return (

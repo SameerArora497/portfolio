@@ -1,15 +1,14 @@
+import '../css/Footer.css';
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/Footer.css'; // Custom CSS file for the footer
 
 const Footer = () => {
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
 
-  const [subscribeEmail, setSubscribeEmail] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,19 +17,14 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Message Sent! \nName: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`);
-  };
-
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-    alert(`Subscribed with: ${subscribeEmail}`);
+    alert(`SMTP issues!`);
   };
 
   return (
     <footer id="contact" className="bg-dark text-white py-5">
       <div className="container footer-container">
         <div className="row">
-          {/* Contact Info */}
+          
           <div className="col-md-6">
             <h2 className="footer-logo">Sameer<span className="logo-highlight">Arora</span></h2>
             <p className="footer-description">
@@ -43,7 +37,6 @@ const Footer = () => {
             </p>
           </div>
   
-          {/* Contact Form */}
           <div className="col-md-6">
             <h2 className="footer-heading">Get in touch</h2>
             <form onSubmit={handleSubmit}>

@@ -1,8 +1,5 @@
-import React from 'react';
-import Lottie from 'react-lottie-player';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import '../css/AboutMe.css';
+import Lottie from 'react-lottie-player';
 import animationData from './lottieProfile.json';
 
 const AboutMe = () => {

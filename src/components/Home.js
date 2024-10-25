@@ -1,6 +1,4 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/Home.css'; // Custom CSS file for styling
+import '../css/Home.css';
 
 const Home = () => {
   return (
