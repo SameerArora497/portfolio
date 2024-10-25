@@ -22,5 +22,3 @@ Check out more projects in the Projects section.
 
 📫 Contact
 Email: sameerarora497@gmail.com
-LinkedIn: Sameer Arora
-GitHub: SameerArora497
