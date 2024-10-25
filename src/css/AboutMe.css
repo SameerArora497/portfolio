@@ -1,0 +1,83 @@
+.about-me-section {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  color: #ff66ff;
+}
+
+.profile-img, .lottie-animation {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.lottie-animation {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.skills .skill {
+  margin-bottom: 20px;
+}
+
+.skills h4 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(45deg, #ff66ff, #ff9933);
+  height: 100%;
+}
+
+.stats-section .stat-number {
+  font-size: 2.5rem;
+  color: #ff66ff;
+  margin-bottom: 10px;
+}
+
+.stats-section .stat-description {
+  font-size: 1.1rem;
+  color: #bbb;
+}
+
+.stats-section .col-md-4 {
+  margin-bottom: 20px;
+}
+
+/* Media Query for Responsive Layout */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .skills h4 {
+    font-size: 1rem;
+  }
+
+  .stats-section .stat-number {
+    font-size: 2rem;
+  }
+
+  .stats-section .stat-description {
+    font-size: 1rem;
+  }
+}

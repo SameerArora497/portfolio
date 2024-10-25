@@ -1,0 +1,48 @@
+.home-section {
+    background-color: #1c1c1c;
+    color: white;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .headline {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  .highlight {
+    color: #ff66ff;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  
+  .btn-group .btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(45deg, #ff66ff, #ff9933);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  
+  .btn-outline-light {
+    border: 1px solid #fff;
+    color: white;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: white;
+    color: #333;
+  }
+  

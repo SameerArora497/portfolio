@@ -1,0 +1,68 @@
+.footer-logo {
+  font-size: 2rem;
+  color: white;
+}
+
+.logo-highlight {
+  color: #ff66ff;
+}
+
+.footer-description {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.bi {
+  margin-right: 10px;
+}
+
+.btn-gradient {
+  background: linear-gradient(45deg, #ff66ff, #ff9933);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.subscribe-form .input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group .form-control {
+  background-color: #2c2c2c;
+  border: none;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
+
+.footer-link {
+  color: #bbb;
+  margin: 0 15px;
+  font-size: 1rem;
+}
+
+.footer-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Flexbox for the footer */
+.row {
+  align-items: center; /* Vertical alignment */
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure even spacing between sections */
+}
+
+.text-center {
+  text-align: center;
+}

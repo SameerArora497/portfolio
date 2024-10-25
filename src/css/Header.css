@@ -1,0 +1,32 @@
+.logo {
+    font-size: 1.8rem;
+    color: white;
+  }
+  
+  .logo-highlight {
+    color: #ff66ff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    margin-right: 15px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff66ff;
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(45deg, #ff66ff, #ff9933);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-gradient:hover {
+    background: linear-gradient(45deg, #ff9933, #ff66ff);
+  }
+  
